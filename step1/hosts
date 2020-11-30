@@ -1,0 +1,22 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+13.251.129.51 metabase.portainer.com
+35.240.202.42  ourblog.gq
+35.240.202.42 ghost.ourblog.gq
+34.84.63.165  myprometheus.com
+35.240.202.42 mygrafana.com
+34.84.63.165 ourblog.ml
+34.84.63.165 prometheus.ourblog.ml
+34.84.63.165 grafana.ourblog.ml
+54.251.116.22  myapp.example.com
